@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block title %}
+Social Noise
+{% endblock title %}
+{% block content %}
+<nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">Social Noise</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="{% url 'artists:index' %}">Home</a></li>
+        <li><a href=""></a></li>
+        <li><a href="">Artists</a></li>
+      </ul>
+    </div>
+  </nav>
+
+{% endblock content %}

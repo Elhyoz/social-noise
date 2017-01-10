@@ -4,11 +4,9 @@ from django.db import models
 class Artist(models.Model):
 	name = models.CharField(max_length=100)
 	email = models.EmailField()
+	instrument = models.CharField(max_length=80,blank=True, null=True)
+	musical_gender = models.CharField(max_length=90, null=True)
 
-class Musician(models.Model):
-	instrument = models.CharField(max_length=60)
-	musical_gender = models.CharField(max_length=50, blank=True, null=True)
-
-
+	
 	def __str__(self):
 		return self.name
