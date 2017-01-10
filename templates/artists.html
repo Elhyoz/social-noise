@@ -3,7 +3,11 @@
 	Artists
 {% endblock title %}
 {% block content %}
-	{% for  in  %}
+	{% for artist in artists %}
+	<div>
+		<p>Artist: {{ artist.name }}		
+		</p>
+	</div>
 		
 	{% endfor %}
 {% endblock content %}
