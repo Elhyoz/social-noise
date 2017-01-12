@@ -8,8 +8,11 @@
 		{% block title %}
 		{% endblock %}
 	</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-  <link rel="stylesheet" href="statics/css/styles.css" media="all" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+	<link rel="stylesheet" href=" {% static 'css/styles.css' %} ">
+	<link rel="stylesheet" href=" {% static 'images/para1.jpg' %} ">
+	<link rel="stylesheet" href=" {% static 'images/para2.jpg' %} ">
 </head>
 <body>
 	{% block content %}
@@ -17,4 +20,3 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
 </body>
 </html>
-

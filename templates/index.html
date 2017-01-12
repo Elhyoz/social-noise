@@ -4,7 +4,7 @@ Social Noise
 {% endblock title %}
 {% block content %}
 <nav>
-    <div class="nav-wrapper">
+    <div class="nav-wrapper nav-home">
       <a href="#" class="brand-logo">Social Noise</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
         <li><a href="{% url 'artists:index' %}">Home</a></li>
@@ -13,5 +13,19 @@ Social Noise
       </ul>
     </div>
   </nav>
-<h1>Welcome to Social Noise</h1>
+  <div class="parallax-container">
+    <div class="parallax"><img src="/static/../images/para1.jpg"></div>
+  </div>
+  <div class="section white">
+    <div class="row container">
+      <h2 class="header">Welcome to Social Noise</h2>
+      <p class="grey-text text-darken-3 lighten-3"></p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img src="static/images/para2.jpg"></div>
+  </div>
 {% endblock content %}
+<p><img src="../../Pictures/index.png" alt=""></p>
+
+<p><img src="../../Pictures/artists.png" alt=""></p>
