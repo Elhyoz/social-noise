@@ -1,3 +1,3 @@
-![](../../Pictures/index.png)
+![](read/artists.png)
 
-![](../../Pictures/artists.png)
+![](read/index.png)
