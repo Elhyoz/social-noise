@@ -4,28 +4,42 @@ Social Noise
 {% endblock title %}
 {% block content %}
 <nav>
-    <div class="nav-wrapper nav-home">
-      <a href="#" class="brand-logo">Social Noise</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="{% url 'artists:index' %}">Home</a></li>
-        <li><a href=""></a></li>
-        <li><a href="{% url 'artists:artists' %}">Artists</a></li>
-      </ul>
-    </div>
-  </nav>
-  <div class="parallax-container">
-    <div class="parallax"><img src="/static/../images/para1.jpg"></div>
-  </div>
-  <div class="section white">
-    <div class="row container">
-      <h2 class="header">Welcome to Social Noise</h2>
-      <p class="grey-text text-darken-3 lighten-3"></p>
-    </div>
-  </div>
-  <div class="parallax-container">
-    <div class="parallax"><img src="static/images/para2.jpg"></div>
-  </div>
-{% endblock content %}
-<p><img src="../../Pictures/index.png" alt=""></p>
-
-<p><img src="../../Pictures/artists.png" alt=""></p>
+	<div class="nav-wrapper nav-home">
+		<a href="#" class="brand-logo">Social Noise</a>
+		<ul id="nav-mobile" class="right hide-on-med-and-down">
+			<li><a href="{% url 'artists:index' %}">Home</a></li>
+			<li><a href=""></a></li>
+			<li><a href="{% url 'artists:artists' %}">Artists</a></li>
+		</ul>
+	</div>
+</nav>
+<div class="parallax-container">
+	<div class="parallax"><img src="../static/images/para1.jpg"></div>
+</div>
+<div class="section white">
+	<div class="row container">
+		<h2 class="header">Welcome to Social Noise</h2>
+		<p class="grey-text text-darken-3 lighten-3"></p>
+	</div>
+</div>
+<div class="parallax-container">
+	<div class="parallax"><img src="../static/images/para2.jpg"></div>
+</div>
+<footer class="page-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col l6 s12">
+				<h5 class="white-text">Contact with us</h5>
+				<p class="grey-text text-lighten-4"></p>
+			</div>
+			<div class="col l4 offset-l2 s12">
+				<h5 class="white-text"></h5>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container">
+				<a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+			</div>
+		</div>
+	</footer>
+	{% endblock content %}
